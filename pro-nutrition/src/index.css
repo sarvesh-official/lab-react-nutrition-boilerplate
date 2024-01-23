@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: #242424;
+  color: white;
+  margin-top: 20vh;
+
+}
+
+.foodBox-main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.foodBox-main-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.foodBox-main-left img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.foodBox-main-right {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  background: linear-gradient(90deg, #fdf882 0%, #7ff14e 50%, #26d1c1 100%);
+}
+
+.add {
+  width: 40px;
+
+}
+
+.foodBox-main-right button {
+  background: linear-gradient(90deg, #02fbd3 0%, #d84877 50%, #d7b6d2 100%);
+}
